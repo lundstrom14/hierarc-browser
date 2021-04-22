@@ -1,0 +1,29 @@
+/* the 'body' selector is required for the tests to pass */
+
+
+/* You can change the style attributes if you want */
+
+.v-title {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    color: #486473;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+input[type=text],
+label {
+    margin-bottom: 8px;
+}
+
+img.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
